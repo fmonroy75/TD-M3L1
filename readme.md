@@ -64,19 +64,11 @@ Landing page para cademia de baile
 
 ### Público Objetivo (Audiencia)
 
-Grupo Principal
-
-Personas de 12 a 35 años interesadas en aprender baile.
-
-Jóvenes que buscan actividades extracurriculares o recreativas.
-
-Adultos interesados en ritmos urbanos, latinos o clásicos.
+Personas interesadas en aprender a bailar
 
 ### Clases
 
 Lista de estilos: salsa, tango, etc.
-
-Información: niveles, edades, duración.
 
 ### Plazos y Metas Claras (Timeline)
 
@@ -97,7 +89,7 @@ Semana 2 – Desarrollo del Sitio
 
 Implementación HTML + estructura BEM.
 
-Creación de secciones: Home, Clases y scss
+Creación de secciones: Home, Clases y donde estamos
 
 Meta: Sitio funcionando al 70% con diseño responsive.
 
