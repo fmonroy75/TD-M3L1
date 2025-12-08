@@ -26,11 +26,9 @@ BEM significa **Block – Element – Modifier** y es una metodología para escr
 
 Ejemplo:
 
-```
 .navbar {}
-.navbar__item {}
-.navbar__item--active {}
-```
+.navbar**item {}
+.navbar**item--active {}
 
 ### ✔ ¿Por qué se eligió BEM?
 
@@ -43,9 +41,9 @@ La metodología BEM ayuda a mantener orden, claridad y escalabilidad durante el 
 
 ---
 
-## 📝 Descripción de la Página Web
+## 📝 Descripción de la Página Web, ejercicio 1 leccion 1
 
-Diseñar y desarrollar una página web moderna, atractiva y funcional para una academia de baile, con el fin de aumentar la visibilidad, mejorar la captación de estudiantes y ofrecer información clara sobre clases, profesores y actividades.
+Crea el diseño y planificación para la creación de una página web, indicando de qué forma vas a organizar la estructura de esta, que metodología de organización y modularización de estilos CSS usarás, define porqué la elegirás y luego elige un preprocesador, indicando también la razón para utilizarlo.
 
 La página propuesta para la academia de baile incluye:
 
@@ -58,11 +56,11 @@ La planificación se basa en componentes reutilizables y estilos centralizados.
 
 ### Objetivos Específicos
 
-Crear una identidad digital que represente la energía, disciplina y estilo de la academia.
+demostrar lo aprendido en la leccion 2
 
-### Mostrar los tipos de danza ofrecidos, con descripciones, niveles.
+### Pagina Landing page, academia de baile
 
-Dar visibilidad al equipo docente, potenciando la confianza de futuros alumnos.
+Landing page para cademia de baile
 
 ### Público Objetivo (Audiencia)
 
@@ -74,25 +72,11 @@ Jóvenes que buscan actividades extracurriculares o recreativas.
 
 Adultos interesados en ritmos urbanos, latinos o clásicos.
 
-### Segmentos Específicos
-
-Padres que buscan actividades para sus hijos.
-
-Bailarines con experiencia previa, interesados en niveles intermedios o avanzados.
-
-Personas que quieren mejorar su condición física a través del baile.
-
-Turistas o residentes temporales que buscan clases flexibles.
-
 ### Clases
 
 Lista de estilos: salsa, tango, etc.
 
 Información: niveles, edades, duración.
-
-Biografía breve.
-
-Especialidad o estilo.
 
 ### Plazos y Metas Claras (Timeline)
 
@@ -113,9 +97,7 @@ Semana 2 – Desarrollo del Sitio
 
 Implementación HTML + estructura BEM.
 
-Creación de secciones: Home, Clases.
-
-Sistemas responsive con Bootstrap/BEM.
+Creación de secciones: Home, Clases y scss
 
 Meta: Sitio funcionando al 70% con diseño responsive.
 

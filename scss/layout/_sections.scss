@@ -1,0 +1,19 @@
+.section {
+  padding: 3rem 0;
+  @include container;
+
+
+  &--alt {
+    background: lighten($bg, 3%);
+  }
+
+
+  &__title {
+    font-size: 1.8rem;
+    margin-bottom: 0.6rem;
+  }
+
+  &__text {
+    color: $muted;
+  }
+}

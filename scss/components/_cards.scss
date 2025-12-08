@@ -1,0 +1,15 @@
+.card {
+  background: $white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__text {
+    color: $muted;
+  }
+}

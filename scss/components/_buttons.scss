@@ -1,0 +1,14 @@
+.btn {
+  padding: 0.6rem 1rem;
+  background: $primary;
+  color: $white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  @include transition();
+
+
+  &:hover {
+    background: darken($primary, 8%);
+  }
+}

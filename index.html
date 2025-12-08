@@ -3,102 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Academia de Baile Ritmo & Pasión</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Academia Ritmo & Pasión</title>
+    <link rel="stylesheet" href="scss/main.css" />
   </head>
-  <body class="page">
-    <!-- ================= NAVBAR ================= -->
-    <nav class="navbar navbar__container">
-      <div class="navbar__logo">Ritmo & Pasión</div>
-      <ul class="navbar__menu">
-        <li class="navbar__item"><a href="#inicio">Inicio</a></li>
-        <li class="navbar__item"><a href="#academia">Nuestra Academia</a></li>
-        <li class="navbar__item"><a href="#clases">Clases</a></li>
-        <li class="navbar__item">
-          <a href="#fundamentos">Fundamentos CSS / Preprocesador</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- ================= HERO ================= -->
-    <header id="inicio" class="hero">
-      <h1 class="hero__title">Academia de Baile Ritmo & Pasión</h1>
-      <p class="hero__subtitle">Salsa · Bachata · Tango</p>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav__brand">Ritmo & Pasión</div>
+        <button class="nav__toggle">☰</button>
+        <ul class="nav__menu">
+          <li><a class="nav__link" href="#inicio">Inicio</a></li>
+          <li><a class="nav__link" href="#quienes">Quiénes Somos</a></li>
+          <li><a class="nav__link" href="#salsa">Salsa</a></li>
+          <li><a class="nav__link" href="#bachata">Bachata</a></li>
+          <li><a class="nav__link" href="#tango">Tango</a></li>
+          <li><a class="nav__link" href="#donde">Dónde Estamos</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- ================= ACADEMIA ================= -->
-    <section id="academia" class="section section--light">
-      <h2 class="section__title">Nuestra Academia</h2>
-      <p class="section__content">
-        Ritmo & Pasión es una academia dedicada a la formación integral de
-        bailarines, desde principiantes hasta avanzados. Nuestro enfoque combina
-        técnica, musicalidad y expresión corporal, fomentando un ambiente
-        inclusivo, energético y profesional.
-      </p>
-      <ul class="section__list">
-        <li>
-          Experiencia de más de 10 años enseñando baile social y competitivo.
-        </li>
-        <li>Estudio profesional con espejos, piso flotante y sonido HD.</li>
-        <li>Programas especiales para adultos, jóvenes y niños.</li>
-        <li>Clases grupales, particulares y entrenamiento coreográfico.</li>
-      </ul>
+    <section id="inicio" class="hero">
+      <div class="hero__inner">
+        <h1 class="hero__title">Academia Ritmo & Pasión</h1>
+        <p class="hero__subtitle">
+          Clases de Salsa, Bachata y Tango para todos los niveles
+        </p>
+      </div>
     </section>
 
-    <!-- ================= CLASES ================= -->
-    <section id="clases" class="section section--dark">
-      <h2 class="section__title">Clases que Ofrecemos</h2>
-      <p class="section__content">
-        Nuestra oferta incluye estilos latinos, urbanos y de salón. Cada clase
-        utiliza progresión técnica y práctica guiada.
+    <section id="quienes" class="section reveal">
+      <h2 class="section__title">Quiénes Somos</h2>
+      <p class="section__text">
+        Somos una academia dedicada a formar bailarines desde cero...
       </p>
-      <ul class="section__list">
-        <li>
-          <strong>Salsa en Línea</strong> – técnica, vueltas,
-          liderazgo/seguimiento.
-        </li>
-        <li>
-          <strong>Bachata Sensual</strong> – fluidez, aislamientos, musicalidad.
-        </li>
-        <li>
-          <strong>Tango</strong> – elegancia, caminata, abrazo y figuras
-          clásicas.
-        </li>
-      </ul>
-    </section>
-    <!-- ================= FUNDAMENTOS ================= -->
-    <section id="fundamentos" class="section section--light">
-      <h2 class="section__title">
-        Fundamentación de Metodología CSS y Preprocesador
-      </h2>
-
-      <h3 class="section__subtitle">Planificacion</h3>
-      <p class="section__content">
-        Segmentos Específicos Padres que buscan actividades para sus hijos.
-        Bailarines con experiencia previa, interesados en niveles intermedios o
-        avanzados. Personas que quieren mejorar su condición física a través del
-        baile. Turistas o residentes temporales que buscan clases flexibles.
-      </p>
-      <h3 class="section__subtitle">
-        Metodología CSS: BEM (Block, Element, Modifier)
-      </h3>
-      <p class="section__content">
-        La metodología BEM permite mantener la academia escalable en diseño y
-        estructura. Las secciones como "clases", "instructores" o "horarios"
-        funcionan como bloques independientes. Esto evita conflictos entre
-        estilos y facilita expandir la web cuando se agreguen nuevos niveles,
-        instructores o sedes.
-      </p>
-      <ul class="section__list">
-        <li>Componentes reutilizables y fáciles de ampliar.</li>
-        <li>Organización clara entre estructura y variaciones visuales.</li>
-        <li>Perfecto para sitios que crecerán con nuevas funciones.</li>
-      </ul>
     </section>
 
-    <!-- ================= FOOTER ================= -->
+    <section id="salsa" class="section section--alt reveal">
+      <div class="card card--dance">
+        <h3 class="card__title">Salsa</h3>
+        <p class="card__text">Estilo cubano, en línea y rueda de casino.</p>
+      </div>
+    </section>
+
+    <section id="bachata" class="section reveal">
+      <div class="card card--dance">
+        <h3 class="card__title">Bachata</h3>
+        <p class="card__text">Sensual, moderna y tradicional.</p>
+      </div>
+    </section>
+
+    <section id="tango" class="section section--alt reveal">
+      <h2 class="section__title">Tango</h2>
+      <p class="section__text">Técnica, conexión y elegancia.</p>
+    </section>
+
+    <section id="donde" class="section reveal">
+      <h2 class="section__title">Dónde Estamos</h2>
+      <p class="section__text">Calle Ficticia 123, Centro</p>
+    </section>
+
     <footer class="footer">
-      <p class="footer__text">© Modulo 3 Leccion 1 - Francisco Monroy</p>
+      <p class="footer__text">© Ritmo & Pasión 2025</p>
     </footer>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
