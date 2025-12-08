@@ -45,7 +45,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img/hero.webp");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -75,6 +75,14 @@ body {
 .section__text {
   color: #666;
 }
+.section__img {
+  width: 100%;
+  height: 260px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
 
 .footer {
   text-align: center;
@@ -96,17 +104,37 @@ body {
   background: rgb(179.6251968504, 33.5748031496, 33.5748031496);
 }
 
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: nowrap;
+}
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .card {
+  width: 300px;
   background: #fff;
   padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+.card__img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-.card__title {
-  font-weight: bold;
-}
-.card__text {
-  color: #666;
+  margin-bottom: 1rem;
 }
 
 @keyframes floatIn {

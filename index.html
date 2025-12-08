@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Academia Ritmo & Pasión</title>
     <link rel="stylesheet" href="scss/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
+      <nav class="nav container">
         <div class="nav__brand">Ritmo & Pasión</div>
-        <button class="nav__toggle">☰</button>
+        <button class="nav__toggle" aria-label="Abrir menú">☰</button>
         <ul class="nav__menu">
           <li><a class="nav__link" href="#inicio">Inicio</a></li>
           <li><a class="nav__link" href="#quienes">Quiénes Somos</a></li>
@@ -23,47 +29,67 @@
     </header>
 
     <section id="inicio" class="hero">
+      <div class="hero__overlay"></div>
       <div class="hero__inner">
-        <h1 class="hero__title">Academia Ritmo & Pasión</h1>
+        <h1 class="hero__title">¡Baila, Conecta y Vive con Ritmo!</h1>
         <p class="hero__subtitle">
-          Clases de Salsa, Bachata y Tango para todos los niveles
+          Salsa • Bachata • Tango — Clases para todos los niveles
         </p>
+        <a href="#quienes" class="btn hero__btn">Descubrir Más</a>
       </div>
     </section>
 
     <section id="quienes" class="section reveal">
       <h2 class="section__title">Quiénes Somos</h2>
       <p class="section__text">
-        Somos una academia dedicada a formar bailarines desde cero...
+        Somos una academia vibrante y moderna donde vivirás el baile con pasión.
+        Nuestros instructores profesionales te acompañan paso a paso para que
+        avances con seguridad, energía y sobre todo… disfrutando cada momento.
       </p>
     </section>
 
-    <section id="salsa" class="section section--alt reveal">
-      <div class="card card--dance">
-        <h3 class="card__title">Salsa</h3>
-        <p class="card__text">Estilo cubano, en línea y rueda de casino.</p>
-      </div>
-    </section>
+    <section id="estilos" class="section reveal">
+      <h2 class="section__title">Nuestros Estilos</h2>
 
-    <section id="bachata" class="section reveal">
-      <div class="card card--dance">
-        <h3 class="card__title">Bachata</h3>
-        <p class="card__text">Sensual, moderna y tradicional.</p>
-      </div>
-    </section>
+      <div class="cards">
+        <div class="card card--dance">
+          <img src="assets/img/salsa.jpg" alt="Salsa" class="card__img" />
+          <h3 class="card__title">Salsa</h3>
+          <p class="card__text">
+            Salsa cubana, en línea y rueda de casino. Ritmo, energía y sabor.
+          </p>
+        </div>
 
-    <section id="tango" class="section section--alt reveal">
-      <h2 class="section__title">Tango</h2>
-      <p class="section__text">Técnica, conexión y elegancia.</p>
+        <div class="card card--dance">
+          <img src="assets/img/bachata.jpg" alt="Bachata" class="card__img" />
+          <h3 class="card__title">Bachata</h3>
+          <p class="card__text">
+            Tradicional, moderna y sensual. Conexión y fluidez al bailar.
+          </p>
+        </div>
+
+        <div class="card card--dance">
+          <img src="assets/img/tango.jpg" alt="Tango" class="card__img" />
+          <h3 class="card__title">Tango</h3>
+          <p class="card__text">
+            Elegancia, técnica y arte en cada movimiento.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="donde" class="section reveal">
       <h2 class="section__title">Dónde Estamos</h2>
-      <p class="section__text">Calle Ficticia 123, Centro</p>
+      <p class="section__text">📍 Calle Ficticia 123, Zona Centro</p>
+      <p class="section__text">
+        Clases grupales y particulares — Todos los días
+      </p>
     </section>
 
     <footer class="footer">
-      <p class="footer__text">© Ritmo & Pasión 2025</p>
+      <p class="footer__text">
+        © Francisco Monroy 2025 — Todos los derechos reservados
+      </p>
     </footer>
 
     <script src="js/script.js"></script>

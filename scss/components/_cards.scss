@@ -1,15 +1,32 @@
+.cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: nowrap;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .card {
+  width: 300px;
   background: $white;
   padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
 
+  display: flex;
+  flex-direction: column;
 
-  &__title {
-    font-weight: bold;
-  }
-
-  &__text {
-    color: $muted;
+  &__img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
   }
 }
