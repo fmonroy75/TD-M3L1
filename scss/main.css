@@ -44,6 +44,49 @@ body {
   color: #d62828;
 }
 
+.nav__menu {
+  display: flex;
+  gap: 2rem;
+}
+@media (max-width: 768px) {
+  .nav__menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+.nav__menu--show {
+  display: flex !important;
+}
+
+.nav__toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .nav__toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__menu {
+    background: white;
+  }
+  .nav__link {
+    color: black !important;
+  }
+}
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img/hero.webp");
   background-size: cover;

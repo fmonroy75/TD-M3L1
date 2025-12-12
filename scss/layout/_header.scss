@@ -34,3 +34,45 @@
     }
   }
 }
+.nav__menu {
+  display: flex;
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    display: none; // <= EL MENÚ ESTÁ OCULTO EN CELULAR
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  &--show {
+    display: flex !important; 
+  }
+}
+
+.nav__toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .nav__menu {
+    background: white;
+  }
+
+  .nav__link {
+    color: black !important; // color texto en móvil
+  }
+}
