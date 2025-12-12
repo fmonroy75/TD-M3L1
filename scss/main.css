@@ -3,6 +3,7 @@ body {
   background: #faf7f5;
   color: #111;
   margin: 0;
+  padding-top: 110px;
 }
 
 .reveal {
@@ -18,6 +19,11 @@ body {
 .header {
   background: #111;
   color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .nav {
