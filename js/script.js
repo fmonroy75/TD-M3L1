@@ -1,5 +1,5 @@
 // Toggle menú
-const toggle = document.querySelector(".nav__toggle");
+/*version sass const toggle = document.querySelector(".nav__toggle");
 const menu = document.querySelector(".nav__menu");
 
 toggle.addEventListener("click", () => {
@@ -19,4 +19,11 @@ document.querySelectorAll(".reveal").forEach((e) => observer.observe(e));
 
 toggle.addEventListener("click", () => {
   menu.classList.toggle("nav__menu--show");
+});*/
+
+const toggle = document.querySelector(".nav__toggle");
+const menu = document.querySelector(".nav__menu");
+
+toggle.addEventListener("click", () => {
+  menu.classList.toggle("nav__menu--open");
 });
