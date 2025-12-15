@@ -1,0 +1,12 @@
+.section {
+  padding: 3rem 0;
+}
+
+.section-alt {
+  background: #f2f2f2;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
