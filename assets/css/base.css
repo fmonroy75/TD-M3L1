@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #faf7f5;
+  color: #111;
+  padding-top: 70px; /* navbar fijo */
+}
